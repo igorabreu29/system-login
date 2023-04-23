@@ -1,0 +1,35 @@
+.header-container {
+    background-color: #0d0e11;
+    max-height: 16vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-container div {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 1.75rem;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem
+}
+
+.nav-container a.active {
+    text-decoration: underline;
+}
